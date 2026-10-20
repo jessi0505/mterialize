@@ -1,0 +1,124 @@
+<html>
+    <head>
+      
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </head>
+
+    <body>
+
+      <div class="conteiner">
+
+        <div class="row">
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">favorite</i>
+              <input id="nome" type="text" class="validate">
+              <label for="nome">Nome</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">flash_on</i>
+              <label for="professor">Selecione a Professora</label><br><br>
+              <select class="browser-default" id="professora">
+                <option value="" disabled selected>Professora</option>
+                <option value="Lidia">Lidia</option>
+                <option value="Damonily">Damonily</option>
+                <option value="Kellen">Kellen</option>
+              </select>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">whatshot</i>
+              <label for="curso">Selecione o Curso</label><br><br>
+              <select class="browser-default" id="curso">
+                <option value="" disabled selected>Curso</option>
+                <option value="Informatica_Modulo_I">Informatica_Modulo_I</option>
+                <option value="Informatica_Modulo_II">Informatica_Modulo_II</option>
+                <option value="Kids">Kids</option>
+                <option value="Melhor_Idade">Melhor_Idade</option>
+              </select>
+            </div>
+
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">wb_cloudy</i>
+              <input id="tel1" type="tel" class="validate">
+              <label for="tel1">Telefone 1</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">
+                wb_sunny</i>
+              <input id="tel2" type="tel" class="validate">
+              <label for="tel2">Telefone 2</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">stars</i>
+              <input id="rg" type="text" class="validate">
+              <label for="rg">Identidade</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">star_half</i>
+              <input id="nascimento" type="date" class="datepicker">
+              <label for="nascimento">Data de Nacimento</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">star_border<i>
+              <input id="mae" type="text" class="vpower_settings_new<alidate">
+              <label for="nascimento">Mae</label>
+            </div>
+
+
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">star</i>
+              <label for="restricaoAlimentar">Restrição Alimentar</label><br><br><br>
+
+              <p>
+                  <label>
+                    <input class="with-gap" type="radio" id="simRestricao" name="restricaoAlimentar" value="sim" />
+                    <span>Sim</span>
+                  </label>
+                  <label>
+                    <input class="with-gap" type="radio" id="naoRestricao" name="restricaoAlimentar" value="nao" checked /> <span>Não</span>
+                  </label>
+              </p>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="endereco" type="text" class="validate">
+              <label for="nascimento">Endereço</label>
+            </div>
+
+             
+
+             <div class="input-field col s12">
+              <i class="material-icons prefix">wb_cloudy</i>
+              <label for="Transporte">Transporte</label><br><br>
+              <select class="browser-default" id="transporte">
+                <option value="" disabled selected>Transporte</option>
+                <option value="Sim">Sim</option>
+                <option value="Nao">Não</option>
+                
+              </select>
+            </div>
+
+
+              <button class="btn waves-effect waves-light" id="btn" >salvar
+              <i class="material-icons right">send</i>
+              </button>
+
+        </div>
+      </div>
+
+    </body>
+  </html>
